@@ -34,8 +34,9 @@
     </script>
 </head>
 <body class="font-poppins">
+
     <!-- header section -->
-    <header class="md:container mx-auto">
+    <header class="md:container mx-auto"> 
       <!-- navbar -->
       <nav>
         <div class="navbar bg-base-100">
@@ -155,8 +156,77 @@
     </header>
 
     <!-- main section -->
-    <main>
+    <main class="md:container mx-auto">
 
+      <!-- Featured bike -->
+       <section class="mt-32">
+        <div class="flex flex-col justify-center items-center mb-10">
+          <h2 class="font-bold text-5xl">Fetured Bikes In This Year</h2>
+          <p class="text-biker-zone-fill text-sm font-semibold">Best bike collection</p>
+          <hr class="border-biker-zone-fill w-16">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 place-items-center">
+          <div><img src="images/others/feature-bike.png" alt=""></div>
+          <div><img src="images/others/feature-bike.png" alt=""></div>
+          <div><img src="images/others/feature-bike.png" alt=""></div>
+        </div>
+       </section>
+
+       <!-- news section here -->
+        <section>
+          <h2 class="text-5xl font-bold text-center mt-20 mb-20">Latest News</h2>
+          
+          <!-- mews cards -->
+           <div class="grid grid-cols-1 md:grid-cols-3 place-items-center">
+            <!-- card 1 -->
+            <div class="card card-compact bg-base-100 w-96 border">
+              <figure class="p-4">
+                <img
+                  src="images/others/latest1.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions">
+                  <button class="btn bg-biker-zone-fill px-5 text-white mt-2">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card card-compact bg-base-100 w-96 border">
+              <figure class="p-4">
+                <img
+                  src="images/others/latest2.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions">
+                  <button class="btn border-biker-zone-fill px-5 bg-white text-biker-zone-fill mt-2">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card card-compact bg-base-100 w-96 border">
+              <figure class="p-4">
+                <img
+                  src="images/others/latest3.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions">
+                  <button class="btn border-biker-zone-fill px-5 bg-white text-biker-zone-fill mt-2">Read More</button>
+                </div>
+              </div>
+            </div>
+           </div>
+        </section>
     </main>
 
     <!-- footer section -->
